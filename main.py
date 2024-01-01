@@ -172,9 +172,9 @@ def chat(prompt):
 
 
 if __name__ == '__main__':
-    say("I am JARVIS, your Virtual Artificial Intelligence")
+    say("Hi,Oscar here, your AI assistant")
     greeting()
-    say(" please tell me how can I help you?")
+    say("how can I help you?")
 
     while True:
         query = takeCommand().lower()
